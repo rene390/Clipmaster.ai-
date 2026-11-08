@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: clipmaster-ai
+    runtime: docker
+    plan: starter
+    healthCheckPath: /
+    envVars:
+      - key: WHISPER_MODEL
+        value: tiny
