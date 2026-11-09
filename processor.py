@@ -1,4 +1,4 @@
-import subprocess
+from .subtitles import write_srtimport subprocess
 from pathlib import Path
 from faster_whisper import WhisperModel
 from .config import MODEL_SIZE
