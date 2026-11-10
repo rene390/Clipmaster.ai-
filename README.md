@@ -24,7 +24,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
-Abre `http://127.0.0.1:8000/docs` para probar la API.
+Abre https://clipmaster-ai-1-4j7o.onrender.com para probar la API.
 
 ## Pruebas
 ```bash
